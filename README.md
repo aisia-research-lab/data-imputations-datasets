@@ -227,6 +227,13 @@ Please refer to our papers for more details of our experiments for data imputati
   isbn="978-981-99-5834-4"
 }
 ```
+```
+@article{nguyen4260235PMF,
+  title={PMF: Efficient Parameter Estimation for Data Sets with Missing Data in Some Features},
+  author={Nguyen, Thu and Phan, Nhan Thanh and Hoang, Ha Van and Halvorsen, P{\aa}l and Riegler, Michael A and Nguyen, Binh T},
+  journal={Available at SSRN 4260235}
+}
+```
 
 
 
