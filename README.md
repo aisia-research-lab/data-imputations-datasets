@@ -103,6 +103,10 @@ Please refer to [https://archive.ics.uci.edu/dataset/45/heart+disease](https://a
 Please refer to [https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data)
 ### 5.14. Student Performance
 Please refer to [https://archive.ics.uci.edu/dataset/320/student+performance](https://archive.ics.uci.edu/dataset/320/student+performance)
+### 5.15. Liver Disorders
+Please refer to [https://archive.ics.uci.edu/dataset/60/liver+disorders](https://archive.ics.uci.edu/dataset/60/liver+disorders)
+### 5.16. Pima Indians Diabetes
+Please refer to [https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 
 # Details of our experiments
 Please refer to our papers for more details of our experiments for data imputation tasks.
