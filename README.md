@@ -48,7 +48,6 @@ Please refer to [https://www.kaggle.com/datasets/avibagul80/air-quality-dataset]
 
 ### 2.3. Beijing dataset
 This dataset is available upon request from the authors of the following article
-
 ```
 @article{DU2023119619,
   title = {SAITS: Self-attention-based imputation for time series},
@@ -65,10 +64,8 @@ This dataset is available upon request from the authors of the following article
 }
 ```
 
-### 2.4. Northern Taiwan dataset
+### 2.4. Taiwan dataset
 Please refer to [https://www.kaggle.com/datasets/nelsonchu/air-quality-in-northern-taiwan](https://www.kaggle.com/datasets/nelsonchu/air-quality-in-northern-taiwan)
-
-
 
 ## 3. Multi-model datasets
 ### 3.1. IMDB
@@ -140,6 +137,113 @@ Please refer to our papers for more details of our experiments for data imputati
     number = {9},
 }
 ```
+```
+@article{LE2025100720,
+  title = {Multimodal missing data in healthcare: A comprehensive review and future directions},
+  journal = {Computer Science Review},
+  volume = {56},
+  pages = {100720},
+  year = {2025},
+  issn = {1574-0137},
+  doi = {https://doi.org/10.1016/j.cosrev.2024.100720},
+  url = {https://www.sciencedirect.com/science/article/pii/S1574013724001035},
+  author = {Lien P. Le and Thu Nguyen and Michael A. Riegler and Pål Halvorsen and Binh T. Nguyen},
+  keywords = {Missing data, Healthcare, Diagnosis, Multimodal data, Fusion method},
+  abstract = {The rapid advancement in healthcare data collection technologies and the importance of using multimodal data for accurate diagnosis leads to a surge in multimodal data characterized by different types, structures, and missing values. Machine learning algorithms for predicting or analyzing usually demand the completeness of data. As a result, handling missing data has become a critical concern in the healthcare sector. This survey paper comprehensively reviews recent works on handling multimodal missing data in healthcare. We emphasize methods for synthesizing data from various modalities or multiple sources in imputing missing data, including early fusion, late fusion, and intermediate fusion methods for missing data imputation. The main objective of this study is to identify gaps in the surveyed area and list future tasks and challenges in handling multimodal missing data in healthcare. This review is valuable for researchers and practitioners in healthcare data analysis. It provides insights into using fusion methods to improve data quality and healthcare outcomes.}
+}
+```
+```
+@article{10596282,
+  author={Vo, Tuan L. and Do, Quan Huu and Nguyen, Thu and Halvorsen, Pål and Riegler, Michael A. and Nguyen, Binh T.},
+  journal={IEEE Access}, 
+  title={The Effects of Data Imputation on Covariance and Inverse Covariance Matrix Estimation}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={134688-134701},
+  keywords={Covariance matrices;Imputation;Estimation;Accuracy;Parameter estimation;Correlation;Bayes methods;Maximum likelihood detection;Missing data;maximum likelihood estimate;parameter estimation},
+  doi={10.1109/ACCESS.2024.3427404}}
+```
+```
+@InProceedings{10.1007/978-3-031-36819-6_3,
+  author="Nguyen, Thuong H. T.
+  and Le, Bao
+  and Nguyen, Phuc
+  and Tran, Linh G. H.
+  and Nguyen, Thu
+  and Nguyen, Binh T.",
+  editor="Fujita, Hamido
+  and Wang, Yinglin
+  and Xiao, Yanghua
+  and Moonis, Ali",
+  title="Principal Components Analysis Based Imputation for Logistic Regression",
+  booktitle="Advances and Trends in Artificial Intelligence. Theory and Applications",
+  year="2023",
+  publisher="Springer Nature Switzerland",
+  address="Cham",
+  pages="28--36",
+  abstract="The field of AI and machine learning is constantly evolving, and as the size of data continues to grow, so does the need for accurate and efficient methods of data processing. However, the data is not always perfect, and missing data is becoming common and occurs more frequently. Therefore, imputation techniques, aside from precision, needed to be scalable. For that reason, we examine the performance of Principle Components Analysis Imputation (PCAI) [9], an imputation speeding up framework, for logistic regression. Note that the coefficients of a logistic regression model are usually used for interpretation. Therefore, in addition to examining the improvement in the speed of PCAI, we examine how the coefficients of fitted logistic regression models change when using this imputation speeding-up mechanism. To demonstrate the efficiency of the mentioned method, the model's performance is compared against frequently used imputation methods on three popular datasets: Fashion MNIST, Gene, and Parkinson. And achieves lower time and better accuracy in most experiments.",
+  isbn="978-3-031-36819-6"
+}
+```
+```
+@article{NGUYEN2022108082,
+title = {DPER: Direct Parameter Estimation for Randomly missing data},
+journal = {Knowledge-Based Systems},
+volume = {240},
+pages = {108082},
+year = {2022},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2021.108082},
+url = {https://www.sciencedirect.com/science/article/pii/S0950705121011540},
+author = {Thu Nguyen and Khoi Minh Nguyen-Duy and Duy Ho Minh Nguyen and Binh T. Nguyen and Bruce Alan Wade},
+keywords = {Randomly missing data, Parameter estimation, MLEs},
+abstract = {Parameter estimation is an important problem with applications in discriminant analysis, hypothesis testing, etc. Yet, when there are missing values in the data sets, commonly used imputation-based techniques are usually needed before further parameter estimation since works in direct parameter estimation exists in only limited settings. Unfortunately, such two-step procedures (imputation-parameter estimation) can be computationally expensive. Therefore, it motivates us to propose novel algorithms that directly find the maximum likelihood estimates (MLEs) for an arbitrary one-class/multiple-class randomly missing data set under some mild assumptions. Furthermore, due to the direct computation, our algorithms do not require multiple iterations through the data, thus promising to be less time-consuming while maintaining superior estimation performance than state-of-the-art methods under comparisons. We validate these claims by empirical results on various data sets of different sizes.}
+}
+```
+```
+@article{ThuNguyen_2021:EPEM:efficient_parameter_estimation_for_multiple_class,
+  title = {EPEM: Efficient Parameter Estimation for Multiple Class Monotone Missing Data},
+  journal = {Information Sciences},
+  volume = {567},
+  pages = {1-22},
+  year = {2021},
+  issn = {0020-0255},
+  doi = {https://doi.org/10.1016/j.ins.2021.02.077},
+  url = {https://www.sciencedirect.com/science/article/pii/S0020025521002346},
+  author = {Thu Nguyen and Duy H.M. Nguyen and Huy Nguyen and Binh T. Nguyen and Bruce A. Wade},
+  keywords = {Missing data, Monotone, Parameter estimation},
+  abstract = {The problem of monotone missing data has been broadly studied during the last two decades and has many applications in various fields such as bioinformatics or statistics. Commonly used imputation techniques require multiple iterations through the data before yielding convergence. Moreover, those approaches may introduce extra noises and biases to the subsequent modeling. In this work, we derive exact formulas and propose a novel algorithm to compute the maximum likelihood estimators (MLEs) of a multiple class, monotone missing dataset when all the covariance matrices of all categories are assumed to be equal, namely Efficient Parameter Estimation for Multiple Class Monotone Missing Data (EPEM). We then illustrate an application of our proposed methods in Linear Discriminant Analysis (LDA). As the computation is exact, our EPEM algorithm does not require multiple iterations through the data as other imputation approaches, thus promising to handle much less time-consuming than other methods. This effectiveness was validated by empirical results when EPEM reduced the error rates significantly and required a short computation time compared to several imputation-based approaches. We also release all codes and data of our experiments in a GitHub repository to contribute to the research community related to this problem.}
+}
+```
+```
+@InProceedings{PhucNguyen_2023:faster_imputation,
+  author="Nguyen, Phuc
+  and Tran, Linh G. H.
+  and Le, Bao H.
+  and Nguyen, Thuong H. T.
+  and Nguyen, Thu
+  and Nguyen, Hien D.
+  and Nguyen, Binh T.",
+  editor="Nguyen, Ngoc Thanh
+  and Boonsang, Siridech
+  and Fujita, Hamido
+  and Hnatkowska, Bogumi{\l}a
+  and Hong, Tzung-Pei
+  and Pasupa, Kitsuchart
+  and Selamat, Ali",
+  title="Faster Imputation Using Singular Value Decomposition for Sparse Data",
+  booktitle="Intelligent Information and Database Systems",
+  year="2023",
+  publisher="Springer Nature Singapore",
+  address="Singapore",
+  pages="135--146",
+  abstract="With the emergence of many knowledge-based systems worldwide, there have been more and more applications using different kinds of data and solving significant daily problems. Among that, the issues of missing data in such systems have become more popular, especially in data-driven areas. Other research on the imputation problem has dealt with partial and missing data. This study aims to investigate the imputation techniques for sparse data using the Singular Value Decomposition technique, namely SVDI. We explore the application of the SVDI framework for image classification and text classification tasks that involve sparse data. The experimental results show that the proposed SVDI method improves the speed and accuracy of the imputation process when compared to the PCAI method. We aim to publish our codes related to the SVDI later for the relevant research community.",
+  isbn="978-981-99-5834-4"
+}
+```
+
+
 
 
 
