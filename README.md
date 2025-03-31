@@ -188,17 +188,17 @@ Please refer to our papers for more details of our experiments for data imputati
 ```
 ```
 @article{NGUYEN2022108082,
-title = {DPER: Direct Parameter Estimation for Randomly missing data},
-journal = {Knowledge-Based Systems},
-volume = {240},
-pages = {108082},
-year = {2022},
-issn = {0950-7051},
-doi = {https://doi.org/10.1016/j.knosys.2021.108082},
-url = {https://www.sciencedirect.com/science/article/pii/S0950705121011540},
-author = {Thu Nguyen and Khoi Minh Nguyen-Duy and Duy Ho Minh Nguyen and Binh T. Nguyen and Bruce Alan Wade},
-keywords = {Randomly missing data, Parameter estimation, MLEs},
-abstract = {Parameter estimation is an important problem with applications in discriminant analysis, hypothesis testing, etc. Yet, when there are missing values in the data sets, commonly used imputation-based techniques are usually needed before further parameter estimation since works in direct parameter estimation exists in only limited settings. Unfortunately, such two-step procedures (imputation-parameter estimation) can be computationally expensive. Therefore, it motivates us to propose novel algorithms that directly find the maximum likelihood estimates (MLEs) for an arbitrary one-class/multiple-class randomly missing data set under some mild assumptions. Furthermore, due to the direct computation, our algorithms do not require multiple iterations through the data, thus promising to be less time-consuming while maintaining superior estimation performance than state-of-the-art methods under comparisons. We validate these claims by empirical results on various data sets of different sizes.}
+  title = {DPER: Direct Parameter Estimation for Randomly missing data},
+  journal = {Knowledge-Based Systems},
+  volume = {240},
+  pages = {108082},
+  year = {2022},
+  issn = {0950-7051},
+  doi = {https://doi.org/10.1016/j.knosys.2021.108082},
+  url = {https://www.sciencedirect.com/science/article/pii/S0950705121011540},
+  author = {Thu Nguyen and Khoi Minh Nguyen-Duy and Duy Ho Minh Nguyen and Binh T. Nguyen and Bruce Alan Wade},
+  keywords = {Randomly missing data, Parameter estimation, MLEs},
+  abstract = {Parameter estimation is an important problem with applications in discriminant analysis, hypothesis testing, etc. Yet, when there are missing values in the data sets, commonly used imputation-based techniques are usually needed before further parameter estimation since works in direct parameter estimation exists in only limited settings. Unfortunately, such two-step procedures (imputation-parameter estimation) can be computationally expensive. Therefore, it motivates us to propose novel algorithms that directly find the maximum likelihood estimates (MLEs) for an arbitrary one-class/multiple-class randomly missing data set under some mild assumptions. Furthermore, due to the direct computation, our algorithms do not require multiple iterations through the data, thus promising to be less time-consuming while maintaining superior estimation performance than state-of-the-art methods under comparisons. We validate these claims by empirical results on various data sets of different sizes.}
 }
 ```
 ```
