@@ -1,0 +1,2 @@
+
+Please download the MNIST in the public dataset.
