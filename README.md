@@ -50,22 +50,7 @@ Please refer to [https://www.kaggle.com/datasets/avibagul80/air-quality-dataset]
 Please refer to [https://www.kaggle.com/datasets/nelsonchu/air-quality-in-northern-taiwan](https://www.kaggle.com/datasets/nelsonchu/air-quality-in-northern-taiwan)
 
 ### 2.4. Beijing dataset
-This dataset is available upon request from the authors of the following article
-```
-@article{DU2023119619,
-  title = {SAITS: Self-attention-based imputation for time series},
-  journal = {Expert Systems with Applications},
-  volume = {219},
-  pages = {119619},
-  year = {2023},
-  issn = {0957-4174},
-  doi = {https://doi.org/10.1016/j.eswa.2023.119619},
-  url = {https://www.sciencedirect.com/science/article/pii/S0957417423001203},
-  author = {Wenjie Du and David Côté and Yan Liu},
-  keywords = {Time series, Missing values, Imputation model, Self-attention, Neural network},
-  abstract = {Missing data in time series is a pervasive problem that puts obstacles in the way of advanced analysis. A popular solution is imputation, where the fundamental challenge is to determine what values should be filled in. This paper proposes SAITS, a novel method based on the self-attention mechanism for missing value imputation in multivariate time series. Trained by a joint-optimization approach, SAITS learns missing values from a weighted combination of two diagonally-masked self-attention (DMSA) blocks. DMSA explicitly captures both the temporal dependencies and feature correlations between time steps, which improves imputation accuracy and training speed. Meanwhile, the weighted-combination design enables SAITS to dynamically assign weights to the learned representations from two DMSA blocks according to the attention map and the missingness information. Extensive experiments quantitatively and qualitatively demonstrate that SAITS outperforms the state-of-the-art methods on the time-series imputation task efficiently and reveal SAITS’ potential to improve the learning performance of pattern recognition models on incomplete time-series data from the real world.}
-}
-```
+Please refer to [https://archive.ics.uci.edu/dataset/501/beijing+multi+site+air+quality+data](https://archive.ics.uci.edu/dataset/501/beijing+multi+site+air+quality+data)
 
 ## 3. Multi-model datasets
 ### 3.1. IMDB
